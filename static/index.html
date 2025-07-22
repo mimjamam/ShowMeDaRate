@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShowMeDaRate Chatbot</title>
+  <style>
+    body {
+      background: #f4f6f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .chatbot-container {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    iframe {
+      border: none;
+      border-radius: 10px;
+    }
+    @media (max-width: 400px) {
+      iframe {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="chatbot-container">
+    <h1>💬 Currency Conversion Chatbot</h1>
+    <iframe
+      width="350"
+      height="430"
+      allow="microphone;"
+      src="https://console.dialogflow.com/api-client/demo/embedded/ac026151-56b5-4500-91ef-f8b7742dd767">
+    </iframe>
+  </div>
+</body>
+</html>
